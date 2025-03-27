@@ -9,5 +9,5 @@ const firebaseConfig = {
  };
 
 firebase.initializeApp(firebaseConfig);
-const database = firebase.database();
+const database = firebase.database()
 const ledRef = database.ref("device/led");
