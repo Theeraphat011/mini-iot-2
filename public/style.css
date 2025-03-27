@@ -1,0 +1,112 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#video,
+#canvas {
+    position: absolute;
+    top: 30px;
+    left: 50;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+#info {
+    margin-top: 500px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00ffcc;
+    text-align: center;
+    width: 300px;
+}
+
+#info p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#status, #distance {
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+#gesture-control {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#gesture-control button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00ffcc;
+    color: #121212;
+    font-weight: bold;
+}
+
+#gesture-control button:hover {
+    background-color: #00cc99;
+}
+
+#hand-action {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+#manual-control {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#manual-control button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00ffcc;
+    color: #121212;
+    font-weight: bold;
+}
+
+#manual-control button:hover {
+    background-color: #02c19b;
+}
+
+#state-info {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ffcc;
+    text-align: center;
+    width: 300px;
+}
+
+#state-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#state1-status, #state2-status {
+    font-weight: bold;
+    color: #00ffcc;
+}

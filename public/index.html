@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MediaPipe Hand || IOT</title>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <video id="video" width="640" height="480" autoplay></video>
+  <canvas id="canvas" width="640" height="480"></canvas>
+  <div id="info">
+    <p>Hand Status: <span id="status">No Hand</span></p>
+    <p>Distance (Thumb-Index): <span id="distance">0</span></p>
+    <p id="hand-action">Hand</p>
+  </div>
+  <div id="state-info">
+    <p>State 1: <span id="state1-status">Unknown</span></p>
+    <p>State 2: <span id="state2-status">Unknown</span></p>
+  </div>
+  <div id="manual-control">
+    <button id="manual-led-on">Turn LED ON</button>
+    <button id="manual-led-off">Turn LED OFF</button>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+  <script src="./config.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
